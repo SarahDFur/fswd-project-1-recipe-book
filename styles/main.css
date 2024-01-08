@@ -1,0 +1,43 @@
+* {
+    font-family: caveat, sans-serif;
+    font-size: 25px;
+    background-color: #14aFFF;
+}
+
+/* navigation bar */
+/* 
+nav {
+    display: flex;
+} */
+.navigation {
+    /* background-color: #5DA699; */
+    font-size: 2rem;
+}
+nav {
+    border-color: red;
+    border-width: 2px;
+    width: 30%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+/* typography */
+
+/* main page */
+.recipe {
+    background-color: #5DA6FF;
+    border-width: 30px;
+    width: 250px;
+}
+/* footer */
