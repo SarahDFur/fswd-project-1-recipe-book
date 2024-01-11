@@ -1,0 +1,66 @@
+.content1{
+    font-family: 'Arial', sans-serif;
+   
+    padding: 0;
+}
+.city {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #5c3b1c; /* Adjust the color as needed */
+    margin-right: 400px;
+    margin-left: 400px;
+    margin:400px 400px 400px 50px;
+}
+
+.top {
+    background-color: #f5f2dc;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    color: #5c3b1c;
+    font-size: 24px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    color: #ff6000;
+}
+
+
+
+h1 {
+    color: #5c3b1c;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
