@@ -1,49 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fictional Food Blog</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/styles/choco-chip-recipe.css">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     </head>
     <body>
         <header class="navigation">
-            <nav>
-                <ul>
-                    <li><a href="../home.html">Home</a></li>
-                    <li><a href="#container">Browse</a></li>
-                </ul>
+            <nav class="nav">
+                <div class="icon-container">
+                    <a href="../home.html">
+                        <span class="material-symbols-outlined icon">
+                            home
+                        </span>
+                    </a>
+                    <a href="../form.html">
+                        <span class="material-symbols-outlined icon">
+                            add
+                        </span>
+                    </a>
+                    <a href="#ingredients"> 
+                        <span class="material-symbols-outlined icon">
+                            grocery
+                        </span>
+                    </a>
+    
+                    <a href="#preparation">
+                        <span class="material-symbols-outlined icon">
+                            developer_guide
+                        </span>
+                    </a>                    
+                    
+                    <a href="#contact"> 
+                        <span class="material-symbols-outlined icon">
+                            mail
+                        </span>
+                    </a>
+                </div>
             </nav>
-            <h1><a href="https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/">Chewy Chocolate Chip Cookies</a></h1>
-            <h5>By <a href="https://sallysbakingaddiction.com/about/">Sally McKenney</a></a></h5>
-        </header>
-        <div id="container" class="container">
+        <div id="container" class="container">    
+            <img class="recipe-pic" src="../images/classic-chocolate-chip-cookies.jpg">
+            <h1><a class="recipe" href="https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/">Chewy Chocolate Chip Cookies</a></h1>
+            <h5>By <a class="chef" href="https://sallysbakingaddiction.com/about/">Sally McKenney</a></a></h5>
             <table>
-                <tr>Prep Time</tr>
-                <tr>Cook Time</tr>
-                <tr>Total Time</tr>
-                <tr>Servings</tr>
-                <tr>Rating</tr>
-                <td>15 min</td>
-                <td>12 min</td>
-                <td>3 hours, 22 min</td>
-                <td>16 XL / 20 M/L cookies</td>
-                <td>4.8/5</td>
+                <thead>
+                    <th>Prep Time</th>
+                    <th>Cook Time</th>
+                    <th>Total Time</th>
+                    <th>Servings</th>
+                    <th>Rating</th>
+                </thead>
+                <tbody>
+                    <td>15 min</td>
+                    <td>12 min</td>
+                    <td>3 hours, 22 min</td>
+                    <td>16 XL / 20 M/L cookies</td>
+                    <td>4.8/5</td>
+                </tbody>
             </table>
-            <div class="ingredients">
-                <h3>Ingredients</h3>
+            <div id="ingredients" class="ingredients">
+                <h2>Ingredients</h2>
                 <ul>
-                    <li>2 and 1/4 cups (280g) all-purpose flour (spooned & leveled)</li>
-                    <li>1 teaspoon baking soda</li>
-                    <li>1 and 1/2 teaspoons cornstarch*</li>
-                    <li>1/2 teaspoon salt</li>
-                    <li>3/4 cup (170g) unsalted butter, melted & cooled 5 minutes*</li>
-                    <li>3/4 cup (150g) packed light or dark brown sugar</li>
-                    <li>1/2 cup (100g) granulated sugar</li>
-                    <li>1 large egg + 1 egg yolk, at room temperature</li>
-                    <li>2 teaspoons pure vanilla extract</li>
-                    <li>1 and 1/4 cups (225g) semi-sweet chocolate chips or chocolate chunks</li>
+                    <li><p>2 and 1/4 cups (280g) all-purpose flour (spooned & leveled)</p></li>
+                    <li><p>1 teaspoon baking soda</p></li>
+                    <li><p>1 and 1/2 teaspoons cornstarch</p></li>
+                    <li><p>1/2 teaspoon salt</p></li>
+                    <li><p>3/4 cup (170g) unsalted butter, melted & cooled 5 minutes</p></li>
+                    <li><p>3/4 cup (150g) packed light or dark brown sugar</p></li>
+                    <li><p>1/2 cup (100g) granulated sugar</p></li>
+                    <li><p>1 large egg + 1 egg yolk, at room temperature</p></li>
+                    <li><p>2 teaspoons pure vanilla exthact</p></li>
+                    <li><p>1 and 1/4 cups (225g) semi-sweet chocolate chips or chocolate chunks</p></li>
                 </ul>
             </div>
-            <div class="preparation">
-                <h3>Instructions</h3>
+            <div id="preparation" class="preparation">
+                <h2>Preparation</h2>
                 <ol>
                     <li>
                         <p>
@@ -52,7 +91,7 @@
                     </li>
                     <li>
                         <p>
-                            In a medium bowl, whisk the melted butter, brown sugar, and granulated sugar together until no brown sugar lumps remain. Whisk in the egg and egg yolk. Finally, whisk in the vanilla extract. The mixture will be thin. Pour into dry ingredients and mix together with a large spoon or rubber spatula. The dough will be very soft, thick, and appear greasy. Fold in the chocolate chips. The chocolate chips may not stick to the dough because of the melted butter, but do your best to combine them.
+                            In a medium bowl, whisk the melted butter, brown sugar, and granulated sugar together until no brown sugar lumps remain. Whisk in the egg and egg yolk. Finally, whisk in the vanilla exthact. The mixture will be thin. Pour into dry ingredients and mix together with a large spoon or rubber spatula. The dough will be very soft, thick, and appear greasy. Fold in the chocolate chips. The chocolate chips may not stick to the dough because of the melted butter, but do your best to combine them.
                         </p>
                     </li>
                     <li>
@@ -77,7 +116,7 @@
                     </li>
                     <li>
                         <p>
-                            Bake the cookies for 12–13 minutes or until the edges are very lightly browned. (XL cookies can take closer to 14 minutes.) The centers will look very soft, but the cookies will continue to set as they cool. Cool on the baking sheet for 10 minutes. Meanwhile, press a few extra chocolate chips into the tops of the warm cookies. This is optional and only for looks. After 10 minutes of cooling on the baking sheets, transfer cookies to a wire rack to cool completely. 
+                            Bake the cookies for 12–13 minutes or until the edges are very lightly browned. (XL cookies can take closer to 14 minutes.) The centers will look very soft, but the cookies will continue to set as they cool. Cool on the baking sheet for 10 minutes. Meanwhile, press a few extha chocolate chips into the tops of the warm cookies. This is optional and only for looks. After 10 minutes of cooling on the baking sheets, thansfer cookies to a wire rack to cool completely. 
                         </p>
                     </li>
                     <li>
@@ -85,23 +124,11 @@
                     </li>
                 </ol>
             </div>
-            <!-- <div class="notes">
-                <h3>Notes</h3>
-                <p><strong>Ingredients:</strong></p>
-                <ul>
-                    <li>
-                        <p>
-                            Make Ahead & Freezing Instructions: You can make the cookie dough and chill it in the refrigerator for up to 2–3 days. Allow to come to room temperature then continue with step 5. Baked cookies freeze well for up to 3 months. Unbaked cookie dough balls freeze well for up to 3 months. Bake frozen cookie dough balls for an extra minute, no need to thaw. Read my tips and tricks on <a href="https://sallysbakingaddiction.com/baking-basics-how-to-freeze-cookie-dough/">how to freeze cookie dough.</a>
-                        </p>
-                    </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div> -->
         </div>
-        <footer></footer>
+        <footer>
+            <div id="contact">
+
+            </div>
+        </footer>
     </body>
 </html>

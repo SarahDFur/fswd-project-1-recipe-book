@@ -6,23 +6,62 @@
         <title>Fictional Food Blog</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="styles/home.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     </head>
     <body>
-        <section class="top">
+        <nav class="nav">
             <div class="icon-container">
                 <a href="./home.html">
-                    <i class="fas fa-home icon"></i>
+                    <span class="material-symbols-outlined icon">
+                        home
+                    </span>
                 </a>
                 <a href="./form.html">
-                    <i class="fas fa-solid fa-plus icon"></i>
+                    <span class="material-symbols-outlined icon">
+                        add
+                    </span>
                 </a>
-                <a href="./home.html">
+                <!-- <a href="./home.html">
                     <i class="fas fa-location-arrow icon"></i>
+                </a> -->
+                <a href="#about">
+                    <span class="material-symbols-outlined icon">
+                        help
+                    </span>
+                </a>
+                <a href="#book">
+                    <!-- <i class="far fa-book icon"> Books</i> -->
+                    <span class="material-symbols-outlined icon">
+                        bookmark
+                    </span>
+                </a>        
+                
+                <a href="#recipes">
+                    <span class="material-symbols-outlined icon">
+                        book
+                    </span>
+                </a>
+                
+                <a href="#contact"> 
+                    <span class="material-symbols-outlined icon">
+                        mail
+                    </span>
+                </a>
+
+                <a href="/store.html">
+                    <span class="material-symbols-outlined icon">
+                        store
+                    </span>
                 </a>
             </div>
-        </section>
+        </nav>
         <section class="page">
-            <nav>
+            <!-- <nav>
                 <ul>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#book">About our Book</a></li>
@@ -30,16 +69,22 @@
                
                     <li><a href="/stores.html">Find Our Book in Stores</a></li>
                 </ul>
-            </nav>
+            </nav> -->
+            <div class="cover">
+                <img class="cover-img" src="./images/Pastries.jpg">
+                <!-- <h1 class="cover-title">M & S Recipe Book</h1> -->
+            </div>
+
 
             <h1 id="about">About us!</h1>
-            <p >Welcome to our food-loving haven! Founded by Moriel Deri and Sara, both passionate 20-year-olds hailing from the vibrant city of Jerusalem,
-                 our culinary adventure was born out of a shared love for all things food. Fueled by the desire to turn their gastronomic passions into a delectable journey, 
-                 Moriel and Sara embarked on a mission to create a space where the joy of cooking and the pleasure of savoring exceptional dishes come together. 
-                 Drawing inspiration from their diverse culinary backgrounds and the rich tapestry of flavors found in Jerusalem, 
-                 they are dedicated to sharing their love for food through enticing recipes, captivating stories, and a genuine commitment to the art 
-                 of creating delicious, memorable meals. Join us on this delectable odyssey, where every dish is a celebration of flavor, and every story is a
-                  testament to the shared joy of the culinary experience.
+            <p>
+                Welcome to our food-loving haven! Founded by Moriel Deri and Sarah Furmanski, both passionate 20-year-olds hailing from the vibrant city of Jerusalem,
+                our culinary adventure was born out of a shared love for all things food. Fueled by the desire to turn their gastronomic passions into a delectable journey, 
+                Moriel and Sarah embarked on a mission to create a space where the joy of cooking and the pleasure of savoring exceptional dishes come together. 
+                Drawing inspiration from their diverse culinary backgrounds and the rich tapestry of flavors found in Jerusalem, 
+                they are dedicated to sharing their love for food through enticing recipes, captivating stories, and a genuine commitment to the art 
+                of creating delicious, memorable meals. Join us on this delectable odyssey, where every dish is a celebration of flavor, and every story is a
+                testament to the shared joy of the culinary experience.
             </p>
                 
             <h1 id="book">About our Book!</h1>
@@ -49,15 +94,17 @@
             </p>
             <!--recipes list -->
             <div id="recipes">
-                <h2>Recipes</h2>
+                <h1>Recipes</h1>
                 <ul>
-                    <li><a href="/recipes/macaron-recipe.html">Macaron Recipe</a></li>
-                    <li><a href="/recipes/choco-chip-recipe.html">Chocolate Chip Cookies Recipe</a></li>
-                    <li><a href="/recipes/croissant-recipe.html">Croissant Recipe</a></li>
-                    <li><a href="/recipes/pancake-recipe.html">Pancake Recipe</a></li>
-                    <li><a href="/recipes/choco-mousse-cake-recipe.html">Mousse Cake Recipe</a></li>
+                    <li><a href="./recipes/macaron-recipe.html">Macaron Recipe</a></li>
+                    <li><a href="./recipes/choco-chip-recipe.html">Chocolate Chip Cookies Recipe</a></li>
+                    <li><a href="./recipes/croissant-recipe.html">Croissant Recipe</a></li>
+                    <li><a href="./recipes/pancake-recipe.html">Pancake Recipe</a></li>
+                    <li><a href="./recipes/choco-mousse-cake-recipe.html">Mousse Cake Recipe</a></li>
                 </ul>
             </div>
+
+            <h1 id="contact">Contact</h1>
         </section>
     </body>
 </html>
