@@ -97,12 +97,7 @@ p, a {
     line-height: 1.5;
 }
 
-ol {
-    list-style: none;
-    color: #7f6baf;
-}
-
-ul {
+ol, ul {
     color: #7f6baf;
 }
 

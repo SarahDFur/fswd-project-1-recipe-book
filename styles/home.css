@@ -138,7 +138,7 @@ ul {
     .nav {
        flex-direction: row;
        padding: 0.2rem;
-       margin: 0.5rem auto;
+       /* margin: 0.5rem auto; */
        height: 4rem;
        position: static;
     }

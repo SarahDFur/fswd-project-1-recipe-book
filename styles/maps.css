@@ -108,3 +108,14 @@ img {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+/* for small screens */
+@media screen and (max-width: 400px) {
+    .nav {
+       flex-direction: row;
+       padding: 0.2rem;
+       /* margin: 0.5rem auto; */
+       height: 5rem;
+       position: sticky;
+    }
+}

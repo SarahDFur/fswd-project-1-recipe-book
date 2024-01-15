@@ -112,3 +112,14 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+/* for small screens */
+@media screen and (max-width: 400px) {
+    .nav {
+       flex-direction: row;
+       padding: 0.2rem;
+       /* margin: 0.5rem auto; */
+       height: 5rem;
+       position: static;
+    }
+}

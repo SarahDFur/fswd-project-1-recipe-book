@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* navbar - home and form */
 .nav {
     background-color: #f5f2dc;
@@ -32,23 +33,6 @@ body {
     color: #622f69; 
 }
 
-/* page styling */
-.container {
-    max-width: 800px;
-    margin: 1rem auto;
-    padding: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 75%;
-}
-
-.recipe-pic {
-    max-width: 75%;
-    margin: 5% 12%;
-    box-shadow: 0 4px 8px rgba(104, 20, 20, 0.342);
-}
-
 /* table */
 table {
     border-collapse: collapse; /* Merge table borders */
@@ -67,6 +51,23 @@ th, td {
 th {
     background-color: #f2f2f2; /* Set header background color */
     color: #523b2d;
+}
+
+/* page styling */
+.container {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 75%;
+}
+
+.recipe-pic {
+    max-width: 75%;
+    margin: 5% 12%;
+    box-shadow: 0 4px 8px rgba(104, 20, 20, 0.342);
 }
 
 /* typogrophy */
@@ -98,11 +99,7 @@ p, a {
 }
 
 ol {
-    list-style: none;
-    color: #7f6baf;
-}
-
-ul {
+    list-style: decimal;
     color: #7f6baf;
 }
 
