@@ -35,6 +35,11 @@ body {
     color: #622f69; 
 }
 
+/* .logo {
+    max-width: 75%;
+    font-size: 1.7rem;
+    align-self: center;
+} */
 /* page body */
 .page {
     max-width: 800px;
@@ -83,13 +88,35 @@ ul {
     color: #7f6baf;
 }
 
+
+
 /* for small screens */
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .nav {
        flex-direction: row;
        padding: 0.2rem;
        margin: 0.5rem auto;
-       height: 5rem;
+       height: 4rem;
        position: static;
+    }
+
+    .logo {
+        font-size: 0.7rem;
+    }
+
+    .icon {
+        color:  #5c3b1c; 
+        font-size: 0.7rem;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        margin: 50% auto;
+    }
+    
+    .icon:hover {
+        color: #622f69; 
     }
 }
