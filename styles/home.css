@@ -20,11 +20,13 @@ body {
     display: flex;
     gap: 1.7rem;
     align-items: center;
+    margin-left: 10%;
 }
 
 .logo{
     height: 10rem;
-  margin-left: 27rem;
+    margin-left: 10%;
+    display: flex;
     
 }
 .icon:hover {
@@ -43,12 +45,16 @@ body {
 }
 
 
-.cover-img {
+.cover-img{
     width: 75%;
     margin: auto 12%;
     box-shadow: 0 4px 8px rgba(109, 17, 17, 0.637);
 }
-
+.book{
+    width: 75%;
+    margin: auto 12%;
+    box-shadow: 0 4px 8px rgba(109, 17, 17, 0.637);
+}
 
 .footer {
     background-color:#E3DFC5;
