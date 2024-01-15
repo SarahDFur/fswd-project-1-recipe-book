@@ -16,36 +16,24 @@
     </head>
 
     <body>
-        <!-- <section class="top">
-            <div class="icon-container">
-                <a href="./home.html">
-                    <i class="fas fa-home icon"></i>
-                </a>
-                <a href="./form.html">
-                    <i class="fas fa-solid fa-plus icon"></i>
-                </a>
-                <a href="./home.html">
-                    <i class="fas fa-location-arrow icon"></i>
-                </a>
-            </div>
-        </section> -->
+ 
         <header class="navigation">
             <nav class="nav">
                 <div class="icon-container">
-                    <a href="../home.html">
+                    <a href="./home.html">
                         <span class="material-symbols-outlined icon">
                             home
                         </span>
                     </a>
-                    <a href="../form.html">
+                    <a href="./form.html">
                         <span class="material-symbols-outlined icon">
                             add
                         </span>
                     </a>
 
-                    <a href=""> 
+                    <a href="./stores.html">
                         <span class="material-symbols-outlined icon">
-                            
+                            store
                         </span>
                     </a>
                 </div>
@@ -59,6 +47,9 @@
 
             <label for="recipeTitle">What's the title of your recipe?</label>
             <input type="text" name="recipeTitle" id="recipeTitle">
+            
+            <label for="user">Share a slice of your story with us! </label>
+            <textarea name="user" id="user"></textarea><br>
 
             <section class="difficulty">
                 <label for="difficultyLevel">How hard is your recipe?</label><br>
@@ -79,6 +70,14 @@
 
             <label for="recipe" >Enter the full instructions:</label>
             <textarea id="recipe" placeholder="Enter the recipe here!" name="recipe" rows="10"></textarea><br>
+
+
+            <label for="image">get full credit! upload a picture of you</label>
+            <input type="file" accept="image/*">
+
+            <label for="image">upload a picture of the final product</label>
+            <input type="file" accept="image/*">
+
 
             <button type="submit">Submit</button>
         </form>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fictional Food Blog</title>
+        <title>Foodies</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="styles/home.css">
 
@@ -15,9 +15,7 @@
     </head>
     <body>
         <nav class="nav">
-            <!-- <div >
-                <h1 class="logo">M & S Recipe Book</h1>
-            </div> -->
+           
             <div class="icon-container">
                 <a href="./home.html">
                     <span class="material-symbols-outlined icon">
@@ -29,54 +27,36 @@
                         add
                     </span>
                 </a>
-                <!-- <a href="./home.html">
-                    <i class="fas fa-location-arrow icon"></i>
-                </a> -->
-                <a href="#about">
-                    <span class="material-symbols-outlined icon">
-                        help
-                    </span>
-                </a>
-                <a href="#book">
-                    <!-- <i class="far fa-book icon"> Books</i> -->
-                    <span class="material-symbols-outlined icon">
-                        bookmark
-                    </span>
-                </a>        
-                
-                <a href="#recipes">
-                    <span class="material-symbols-outlined icon">
-                        book
-                    </span>
-                </a>
-                
-                <a href="#contact"> 
-                    <span class="material-symbols-outlined icon">
-                        mail
-                    </span>
-                </a>
-
-                <a href="/store.html">
+                <a href="./stores.html">
                     <span class="material-symbols-outlined icon">
                         store
                     </span>
                 </a>
+                <img class="logo" id="logo" src="./images/logo2.jpg"></img>
             </div>
+
+       
+
+ 
+            
+          
         </nav>
         <section class="page">
-            <!-- <nav>
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#book">About our Book</a></li>
-                    <li><a href="#recipes">Recipes</a></li>
-               
-                    <li><a href="/stores.html">Find Our Book in Stores</a></li>
-                </ul>
-            </nav> -->
+        
+            <ul>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#book">About our book</a></li>
+                <li><a href="#recipes">Our recipes</a></li>
+                <li><a href="#contact">Stay in touch!</a></li>
+            </ul>
+
+          
+
             <div class="cover">
                 <img class="cover-img" src="./images/Pastries.jpg">
-                <!-- <h1 class="cover-title">M & S Recipe Book</h1> -->
+    
             </div>
+
 
 
             <h1 id="about">About us!</h1>
@@ -95,7 +75,8 @@
                 Introducing our recipe book, a collection born from the heart of our blog's most cherished and adored recipes. Moriel Deri and Sara, the masterminds behind this compilation, have carefully curated the best-loved and most-viewed dishes from our online kitchen. What makes this book truly special is the personal touch – each recipe comes with the credit of the talented individuals who shared it on our blog. It's a celebration of the taste of home, where every dish tells a story and carries the warmth of shared experiences. Whether you're a seasoned chef or a kitchen novice, 
                 our recipe book invites you to savor the flavors of home and join us in creating delicious memories one dish at a time.
             </p>
-            <!--recipes list -->
+            <img class="book" id="book" src="./images/book.jpg"></img>
+            
             <div id="recipes">
                 <h1>Recipes</h1>
                 <ul>
@@ -107,7 +88,15 @@
                 </ul>
             </div>
 
-            <h1 id="contact">Contact</h1>
+     
+            
         </section>
+        <footer class="footer " id="contact">
+            <div class="footer-content">
+                <h2>Contact Us</h2>
+                <p>Email: morielandsarah@example.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+        </footer>
     </body>
 </html>
