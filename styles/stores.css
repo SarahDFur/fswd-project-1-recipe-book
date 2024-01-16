@@ -1,7 +1,7 @@
 .map-container {
     position: relative;
     overflow: hidden;
-    padding-bottom: 75%; 
+    padding-bottom: 10%; 
 }
 
 .map {
@@ -12,4 +12,73 @@
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
 
+h1 {
+    color: #5c3b1c; 
+    font-size: 1.7rem;
+    margin-bottom: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+h2, h3 {
+    color: #304853; /* Darker Tan */
+    margin-bottom: 0.2rem;
+    padding-top: 1rem;
+}
+
+p, a {
+    color: #7f6b5f; 
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+ol {
+    color: #241d36;
+}
+
+/* adaptive screen */
+@media screen and (max-width: 550px){
+    .page {
+        width: 95%; 
+        padding: 0.2rem;
+        margin: auto 0.5rem; 
+    }
+    
+    /* typography */
+    h1 {
+        color: #5c3b1c; 
+        font-size: 1.5rem;
+        margin-bottom: 0.1rem;
+        padding-top: 0.2rem;
+    }
+
+    h2, h3 {
+        color: #304853;
+        font-size: 1.2rem;
+        margin-bottom: 0.2rem;
+        padding-top: 1rem;
+    }
+
+    p, a {
+        color: #7f6b5f; 
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    /* footer */
+    .footer h2 {
+        color: #5c3b1c;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer p {
+        color: #7f6b5f;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0.5rem 0;
+    }
+}

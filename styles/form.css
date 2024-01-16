@@ -4,7 +4,7 @@ body {
     padding: 0; 
 }
 
-
+/* navigation */
 .nav {
     background-color: #E3DFC5;
     height: 10rem;
@@ -24,14 +24,16 @@ body {
     margin-left: 3%;
 }
 
-.logo{
+.logo {
     height: 10rem; 
+    color: #5c3b1c;
 }
+
 .icon:hover {
     color: #622f69; 
 }
 
-
+/* main section styling */
 form {
     width:75%;
     margin: 1rem auto;
@@ -41,20 +43,21 @@ form {
     border-radius: 8px;
 }
 
-
+/* typography */
 h2 {
     color: #5c3b1c; /* Darker Tan */
     font-size: 24px;
     margin-bottom: 15px;
 }
 
-p {
+p, a {
     color: #7f6b5f; /* Lighter Tan */
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
+/* other areas */
 label {
     display: block;
     margin-bottom: 8px;
@@ -103,8 +106,7 @@ button:hover {
     background-color:#E3DFC5;
 }
 
-
-
+/* footer styling */
 .footer {
     background-color:#E3DFC5;
     text-align: center;
@@ -127,4 +129,54 @@ button:hover {
     font-size: 18px;
     line-height: 1.5;
     margin: 0.5rem 0;
+}
+
+/* adaptive screen */
+@media screen and (max-width: 550px){
+    .page {
+        width: 95%; 
+        padding: 0.2rem;
+        margin: auto 0.5rem; 
+    }
+    
+    /* typography */
+    h1 {
+        color: #5c3b1c; 
+        font-size: 1.5rem;
+        margin-bottom: 0.1rem;
+        padding-top: 0.2rem;
+    }
+    
+    h2 {
+        color: #5c3b1c; /* Darker Tan */
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    p, a {
+        color: #7f6b5f; 
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    /* recipies */
+    #recipes {
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    /* footer */
+    .footer h2 {
+        color: #5c3b1c;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer p {
+        color: #7f6b5f;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0.5rem 0;
+    }
 }
