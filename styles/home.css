@@ -5,28 +5,43 @@ body {
     
 }
 
+header {
+    margin: 0;
+    padding: 0;
+   position: sticky;
+   top: 0;
+    
+}
+
+
 /* navigation */
 .nav {
+    position: sticky;
     background-color: #E3DFC5;
     height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 8px rgba(77, 57, 45, 0.123);
-    position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1; 
+    
+  
 }
 
 .icon-container {
     display: flex;
     gap: 1.7rem;
     align-items: center;
-    margin-left: 3%;
+    margin-left: 1%;
+   flex-direction: row;
+   flex-flow: wrap;
 }
 
 .logo{
     height: 10rem; 
+   
+    max-width: 100%;
 }
 
 .icon:hover {
@@ -44,16 +59,14 @@ body {
 }
 
 .cover-img{
-    width: 75%;
+    width: 60%;
     margin: auto 12%;
     box-shadow: 0 4px 8px rgba(109, 17, 17, 0.637);
+    margin-left: 20%;
+   
 }
 
-.book{
-    width: 75%;
-    margin: auto 12%;
-    box-shadow: 0 4px 8px rgba(109, 17, 17, 0.637);
-}
+
 
 h1 {
     color: #5c3b1c; 
@@ -140,7 +153,7 @@ ul {
 }
 
 /* adaptive screen */
-@media screen and (max-width: 550px){
+@media screen and (max-width: 700px){
     .page {
         width: 95%; 
         padding: 0.2rem;
@@ -181,4 +194,10 @@ ul {
         line-height: 1.5;
         margin: 0.5rem 0;
     }
+    .icon{
+        width:15%;
+    }
+
+
+  
 }

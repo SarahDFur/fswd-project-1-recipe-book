@@ -4,17 +4,27 @@ body {
     padding: 0; 
 }
 
+header {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+     
+}
+
+
 /* navigation */
 .nav {
+    position: sticky;
     background-color: #E3DFC5;
     height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 8px rgba(77, 57, 45, 0.123);
-    position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
+  
 }
 
 .icon-container {
@@ -56,6 +66,7 @@ p, a {
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
 
 /* other areas */
 label {

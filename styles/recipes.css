@@ -14,7 +14,7 @@ body {
     box-shadow: 0 4px 8px rgba(95, 43, 13, 0.123);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .icon-container {
@@ -26,6 +26,13 @@ body {
 
 .logo {
     height: 10rem; 
+}
+header {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+     
 }
 
 .icon:hover {
@@ -43,10 +50,13 @@ body {
 }
 
 .recipe-pic {
-    max-width: 75%;
-    margin: 5% 12%;
-    box-shadow: 0 4px 8px rgba(104, 20, 20, 0.342);
+    width: 60%;
+    margin: auto 12%;
+    box-shadow: 0 4px 8px rgba(109, 17, 17, 0.637);
+    margin-left: 20%;
 }
+
+
 
 /* table */
 table {
