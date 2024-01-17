@@ -7,7 +7,7 @@ body {
 /* navigation */
 .nav {
     background-color: #E3DFC5;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,8 +25,9 @@ body {
 }
 
 .logo {
-    height: 10rem; 
+    height: 8rem; 
 }
+
 header {
     margin: 0;
     padding: 0;
@@ -56,14 +57,13 @@ header {
     margin-left: 20%;
 }
 
-
-
 /* table */
 table {
     border-collapse: collapse; /* Merge table borders */
     width: 100%; /* Set table width */
     max-width: 500px;
     border-color: #523b2d;
+    margin-top: 20px;
 }
 
 th, td {
@@ -73,6 +73,10 @@ th, td {
     flex-wrap: wrap;
 }
 
+th {
+    background-color: #f2f2f2; /* Set header background color */
+    color: #523b2d;
+}
 /* footer styling */
 .footer {
     background-color:#E3DFC5;
@@ -96,11 +100,6 @@ th, td {
     font-size: 18px;
     line-height: 1.5;
     margin: 0.5rem 0;
-}
-
-th {
-    background-color: #f2f2f2; /* Set header background color */
-    color: #523b2d;
 }
 
 /* typogrophy */

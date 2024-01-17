@@ -17,7 +17,7 @@ header {
 .nav {
     position: sticky;
     background-color: #E3DFC5;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ header {
 }
 
 .logo {
-    height: 10rem; 
+    height: 8rem; 
     color: #5c3b1c;
 }
 
