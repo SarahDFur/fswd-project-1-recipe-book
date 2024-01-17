@@ -72,18 +72,4 @@ ol {
         font-size: 14px;
         line-height: 1.5;
     }
-    
-    /* footer */
-    .footer h2 {
-        color: #5c3b1c;
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-    }
-    
-    .footer p {
-        color: #7f6b5f;
-        font-size: 14px;
-        line-height: 1.5;
-        margin: 0.5rem 0;
-    }
 }
